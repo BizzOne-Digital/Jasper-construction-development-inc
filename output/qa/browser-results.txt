@@ -1,0 +1,21 @@
+1440px / OK
+1440px /about OK
+1440px /services OK
+1440px /testimonials OK
+1440px /contact OK
+768px / OK
+768px /about OK
+768px /services OK
+768px /testimonials OK
+768px /contact OK
+390px / OK
+390px /about OK
+390px /services OK
+390px /testimonials OK
+390px /contact OK
+320px / OK
+320px /about OK
+320px /services OK
+320px /testimonials OK
+320px /contact OK
+Mobile menu, form validation, API fallback, malformed requests, origin checks, image loading, and browser error checks passed.

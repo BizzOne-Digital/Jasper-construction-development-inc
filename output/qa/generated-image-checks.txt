@@ -1,0 +1,11 @@
+1440px /: all 8 photos loaded from local generated assets
+1440px /about: all 1 photos loaded from local generated assets
+1440px /services: all 6 photos loaded from local generated assets
+1440px /testimonials: all 1 photos loaded from local generated assets
+1440px /contact: all 0 photos loaded from local generated assets
+390px /: all 8 photos loaded from local generated assets
+390px /about: all 1 photos loaded from local generated assets
+390px /services: all 6 photos loaded from local generated assets
+390px /testimonials: all 1 photos loaded from local generated assets
+390px /contact: all 0 photos loaded from local generated assets
+All 6 generated photos and the social-preview derivative are served successfully. No horizontal overflow or browser runtime errors.

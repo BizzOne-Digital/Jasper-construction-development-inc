@@ -1,0 +1,78 @@
+{
+  "mode": "built-in image_gen",
+  "note": "AI-generated illustrative renovation concepts, not verified Jasper project photography.",
+  "assets": [
+    {
+      "key": "kitchen",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-resolution architectural photography for Jasper Construction & Development Inc. renovation website. Generate ONE standalone landscape 3:2 photograph, not a website mockup, not a collage. Consistent warm approachable premium Canadian residential renovation aesthetic: natural light oak, warm off-white walls, subtle brushed muted-gold accents, quiet charcoal details, genuine material texture and soft warm daylight. Professional architectural photography with straight verticals, realistic lens and construction, natural styling, excellent detail, welcoming and attainable rather than ostentatious. No people, pets, text, signs, logos, watermark, UI, borders, typography or before/after labels. Frame the subject centrally with generous peripheral room so both wide desktop and tighter mobile crops work. Subject: a beautifully renovated open-plan kitchen in a GTA family home. Large natural oak island with softly veined cream quartz countertop and three cream upholstered stools; oak lower cabinetry, warm white upper cabinetry, brushed brass faucet and two elegant understated gold pendant lights. In the distance a light-filled living area and garden through glazed doors. View diagonally across the island from eye level, charming green branches in a ceramic vase, tidy surfaces. Image should closely evoke the kitchen in the user's Jasper website reference: soft warm white, honey oak and muted gold, bright realistic sunny interiors.",
+      "tool": "built-in image_gen",
+      "original": "output/imagegen/originals/jasper-kitchen.png",
+      "optimized": "public/images/jasper/jasper-kitchen.webp",
+      "url": "/images/jasper/jasper-kitchen.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 186328
+    },
+    {
+      "key": "interior",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-resolution architectural photography for Jasper Construction & Development Inc. renovation website. Generate ONE standalone landscape 3:2 photograph, not a website mockup, not a collage. Consistent warm approachable premium Canadian residential renovation aesthetic: natural light oak, warm off-white walls, subtle brushed muted-gold accents, quiet charcoal details, genuine material texture and soft warm daylight. Professional architectural photography with straight verticals, realistic lens and construction, natural styling, excellent detail, welcoming and attainable rather than ostentatious. No people, pets, text, signs, logos, watermark, UI, borders, typography or before/after labels. Frame the subject centrally with generous peripheral room so both wide desktop and tighter mobile crops work. Subject: a renovated entry hallway with a beautifully crafted straight natural oak staircase on the left and fine black metal balusters and railing. Warm white walls and pale oak floorboards run toward a bright living/dining room visible behind the stairs. Understated ceramic vase with branches at the stair foot, cream sofa in distant room and daylight through rear patio doors. Camera at eye height facing down the spacious hall, staircase and living room are both legible. Emulate the welcoming staircase image in the Jasper reference, not a double-height glass mansion.",
+      "tool": "built-in image_gen",
+      "original": "output/imagegen/originals/jasper-interior.png",
+      "optimized": "public/images/jasper/jasper-interior.webp",
+      "url": "/images/jasper/jasper-interior.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 169994
+    },
+    {
+      "key": "bathroom",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-resolution architectural photography for Jasper Construction & Development Inc. renovation website. Generate ONE standalone landscape 3:2 photograph, not a website mockup, not a collage. Consistent warm approachable premium Canadian residential renovation aesthetic: natural light oak, warm off-white walls, subtle brushed muted-gold accents, quiet charcoal details, genuine material texture and soft warm daylight. Professional architectural photography with straight verticals, realistic lens and construction, natural styling, excellent detail, welcoming and attainable rather than ostentatious. No people, pets, text, signs, logos, watermark, UI, borders, typography or before/after labels. Frame the subject centrally with generous peripheral room so both wide desktop and tighter mobile crops work. Subject: a newly renovated family bathroom in a Canadian home. Freestanding oval warm white bathtub beside a tall frosted daylight window on the left, walk-in shower with clear frameless glass on the right, large-format warm ivory tiles, light oak double vanity with cream stone top, brushed muted-brass fittings and a round mirror. One folded cream towel and a small green plant. Eye-level wide three-quarter view showing the tub, shower and vanity together; physically coherent clean detailing, inviting natural light, restrained premium residential scale.",
+      "tool": "built-in image_gen",
+      "original": "output/imagegen/originals/jasper-bathroom.png",
+      "optimized": "public/images/jasper/jasper-bathroom.webp",
+      "url": "/images/jasper/jasper-bathroom.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 185866
+    },
+    {
+      "key": "basement",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-resolution architectural photography for Jasper Construction & Development Inc. renovation website. Generate ONE standalone landscape 3:2 photograph, not a website mockup or collage. A cohesive warm approachable premium Canadian family-home aesthetic: pale natural oak, warm off-white, understated muted-gold hardware, fine charcoal accents, realistic material textures and natural light. Professional architectural photography, straight verticals, believable construction, warm yet neutral photographic grading, carefully styled but lived-in and attainable, not ostentatious. No people, pets, text, signage, logos, watermark, typography, borders, UI or comparison labels. Composition must remain usable in wide desktop and cropped mobile cards. Subject: a genuinely below-grade finished basement family room in a Greater Toronto Area home, comfortable standard residential ceiling height, small high-set basement windows on the rear wall and a closed oak stairway rising to the main floor at the side. Cream sectional sofa, soft textured rug, oak media console with a discreet wall-mounted blank dark television, warm recessed ceiling lights, pale oak-look floor, built-in storage and a compact desk nook. Show a welcoming, practical and carefully finished space with daylight coming from the high-set windows. Explicitly a basement, not a ground-floor living room with floor-to-ceiling windows.",
+      "tool": "built-in image_gen",
+      "original": "output/imagegen/originals/jasper-basement.png",
+      "optimized": "public/images/jasper/jasper-basement.webp",
+      "url": "/images/jasper/jasper-basement.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 197146
+    },
+    {
+      "key": "home",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-resolution architectural photography for Jasper Construction & Development Inc. renovation website. Generate ONE standalone landscape 3:2 photograph, not a website mockup or collage. A cohesive warm approachable premium Canadian family-home aesthetic: pale natural oak, warm off-white, understated muted-gold hardware, fine charcoal accents, realistic material textures and natural light. Professional architectural photography, straight verticals, believable construction, warm yet neutral photographic grading, carefully styled but lived-in and attainable, not ostentatious. No people, pets, text, signage, logos, watermark, typography, borders, UI or comparison labels. Composition must remain usable in wide desktop and cropped mobile cards. Subject: tasteful two-storey renovated detached suburban family home in Brampton, Ontario at warm early evening. Canadian contemporary traditional architecture: charcoal gabled roof, warm white brick and stone facade, some dark charcoal cladding accents, clear black-framed windows glowing with warm indoor light, welcoming oak front door, restrained porch, tidy natural landscaping, green lawn and driveway. Mature deciduous trees and a glimpse of neighbouring suburban homes establish a real GTA residential setting. Three-quarter front view showing the whole house and roof with generous sky margin. No swimming pool or tropical plants, no address numerals, not a glass cube or mansion.",
+      "tool": "built-in image_gen",
+      "original": "output/imagegen/originals/jasper-home.png",
+      "optimized": "public/images/jasper/jasper-home.webp",
+      "url": "/images/jasper/jasper-home.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 389604
+    },
+    {
+      "key": "living",
+      "prompt": "Use case: photorealistic-natural. Asset type: high-resolution architectural photography for Jasper Construction & Development Inc. renovation website. Generate ONE standalone landscape 3:2 photograph, not a website mockup or collage. A cohesive warm approachable premium Canadian family-home aesthetic: pale natural oak, warm off-white, understated muted-gold hardware, fine charcoal accents, realistic material textures and natural light. Professional architectural photography, straight verticals, believable construction, warm yet neutral photographic grading, carefully styled but lived-in and attainable, not ostentatious. No people, pets, text, signage, logos, watermark, typography, borders, UI or comparison labels. Composition must remain usable in wide desktop and cropped mobile cards. Subject: a complete open-plan residential renovation with a beautiful warm neutral living room in the foreground and oak dining table and refined oak kitchen visible further behind. Cream linen sofa, two cozy armchairs, natural oak round coffee table, pale stone fireplace wall with a simple timber mantel, a quiet built-in bookshelf, textured ivory rug, oak floorboards. Large rear garden windows wash the room with soft afternoon daylight. Eye-level view from a corner across the living area towards the dining area, coherent premium but practical family home, calm warm-white oak and muted-gold styling matching Jasper kitchen imagery. Distinct composition from entry staircase and kitchen close-up images.",
+      "tool": "built-in image_gen",
+      "original": "output/imagegen/originals/jasper-living.png",
+      "optimized": "public/images/jasper/jasper-living.webp",
+      "url": "/images/jasper/jasper-living.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 293528
+    }
+  ],
+  "socialPreview": {
+    "file": "public/images/jasper/social-preview.webp",
+    "derivedFrom": "kitchen",
+    "width": 1200,
+    "height": 630
+  }
+}

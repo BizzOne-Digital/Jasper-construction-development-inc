@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import nodemailer from "nodemailer";
+export const runtime = "nodejs";
 import { estimateSchema } from "@/lib/validation";
 export async function POST(request: NextRequest) {
   if (Number(request.headers.get("content-length") || 0) > 16000)
@@ -53,9 +55,9 @@ export async function POST(request: NextRequest) {
       },
       { status: 400 },
     );
-  const apiKey = process.env.RESEND_API_KEY,
-    from = process.env.ESTIMATE_FROM;
-  if (!apiKey || !from)
+  const user = process.env.GMAIL_USER,
+    pass = process.env.GMAIL_APP_PASSWORD?.replace(/\s+/g, "");
+  if (!user || !pass)
     return NextResponse.json(
       {
         message:
@@ -65,32 +67,27 @@ export async function POST(request: NextRequest) {
     );
   const { name, email, phone, service, details } = result.data;
   try {
-    const response = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: {
-        Authorization: "Bearer " + apiKey,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        from,
-        to: [process.env.ESTIMATE_TO || "jasperconstructioninc@gmail.com"],
-        reply_to: email,
-        subject: "Website estimate request: " + service,
-        text: [
-          "Name: " + name,
-          "Email: " + email,
-          "Phone: " + (phone || "Not supplied"),
-          "Service: " + service,
-          "",
-          "Project details:",
-          details,
-        ].join("\n"),
-      }),
-      signal: AbortSignal.timeout(12000),
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: { user, pass },
+      connectionTimeout: 12000,
+      socketTimeout: 12000,
     });
-    if (!response.ok) throw new Error("Delivery failed");
-    const receipt = await response.json();
-    if (!receipt.id) throw new Error("Missing delivery confirmation");
+    await transporter.sendMail({
+      from: { name: "Jasper Website", address: user },
+      to: process.env.ESTIMATE_TO || "jasperconstructioninc@gmail.com",
+      replyTo: { name, address: email },
+      subject: "Website estimate request: " + service,
+      text: [
+        "Name: " + name,
+        "Email: " + email,
+        "Phone: " + (phone || "Not supplied"),
+        "Service: " + service,
+        "",
+        "Project details:",
+        details,
+      ].join("\n"),
+    });
     return NextResponse.json({
       message:
         "Thank you. Your estimate request has been sent to Jasper. We look forward to discussing your project.",

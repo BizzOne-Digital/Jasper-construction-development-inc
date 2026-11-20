@@ -16,7 +16,7 @@ Run npm run build, then npm start. Deploy to a host supporting Next.js server ro
 
 ## Estimate delivery
 
-The /api/estimate route uses the Resend HTTP API. Configure RESEND_API_KEY and ESTIMATE_FROM using an address on a domain verified in your Resend account. ESTIMATE_TO defaults to jasperconstructioninc@gmail.com. Never expose these secrets to browser code.
+The /api/estimate route sends enquiries through Gmail SMTP. Set GMAIL_USER (the sending Gmail address) and GMAIL_APP_PASSWORD (a 16-character Google App Password; 2-Step Verification must be on). ESTIMATE_TO defaults to jasperconstructioninc@gmail.com. Never commit or expose these secrets.
 
 Both client and server validate the form. A hidden honeypot catches basic automated submissions. Success appears only after the provider returns an email ID, confirming acceptance rather than inbox delivery. Missing configuration returns an honest phone/email fallback. Add host-level rate limiting before public campaigns.
 

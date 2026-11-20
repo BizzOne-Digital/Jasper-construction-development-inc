@@ -216,9 +216,9 @@ main {
   align-items: center;
   flex-shrink: 0;
 }
-.logo > svg {
-  width: 42px;
-  height: 60px;
+.logo > img {
+  width: auto;
+  height: 82px;
 }
 .logo strong {
   display: block;
@@ -242,7 +242,8 @@ main {
   align-items: center;
 }
 .desktop-nav a {
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: 500;
   position: relative;
   padding: 12px 0;
 }
@@ -262,7 +263,7 @@ main {
 }
 .header-cta {
   min-height: 43px;
-  font-size: 11px;
+  font-size: 13px;
   padding: 12px 20px;
 }
 .menu-toggle {
@@ -682,9 +683,8 @@ main {
 .footer-main .logo {
   gap: 8px;
 }
-.footer-main .logo > svg {
-  width: 32px;
-  height: 47px;
+.footer-main .logo > img {
+  height: 72px;
 }
 .footer-main .logo strong {
   font-size: 23px;
@@ -994,7 +994,7 @@ main {
     gap: 20px;
   }
   .desktop-nav a {
-    font-size: 11px;
+    font-size: 14px;
   }
   .logo strong {
     font-size: 25px;
@@ -1003,9 +1003,8 @@ main {
   .logo small {
     font-size: 4.8px;
   }
-  .logo > svg {
-    width: 35px;
-    height: 50px;
+  .logo > img {
+    height: 72px;
   }
   .logo {
     gap: 10px;
@@ -1257,9 +1256,8 @@ main {
     height: 75px;
     padding: 0 6%;
   }
-  .logo > svg {
-    height: 48px;
-    width: 32px;
+  .logo > img {
+    height: 62px;
   }
   .logo strong {
     font-size: 25px;
